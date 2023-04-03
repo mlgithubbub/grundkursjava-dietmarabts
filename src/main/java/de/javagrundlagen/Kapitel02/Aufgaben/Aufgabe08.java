@@ -1,5 +1,9 @@
 package de.javagrundlagen.Kapitel02.Aufgaben;
 
+/*Berechnen Sie den kleinsten ganzahligen Wert von n,
+sodass 2^n größer oder gleich einer vorgegebenen ganzen Zahl x ist.
+Beispiel: Für x = 15 ist n = 4.
+* */
 public class Aufgabe08 {
 
     public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package de.javagrundlagen.Kapitel02.Aufgaben;
 
+/*Schreiben Sie ein Programm, das die Anzahl von Sekunden im Monat Januar berechnet.
+* */
 public class Aufgabe04 {
 
     public static void main(String[] args) {

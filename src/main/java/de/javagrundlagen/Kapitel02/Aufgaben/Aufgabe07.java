@@ -1,5 +1,8 @@
 package de.javagrundlagen.Kapitel02.Aufgaben;
 
+/*Schreiben Sie ein Programm, das eine bestimmte Anzahl von Sternchen (*)
+in Form eines Dreiecks auf dem Bildschirm ausgibt.
+* */
 public class Aufgabe07 {
 
     public static void main(String[] args) {
