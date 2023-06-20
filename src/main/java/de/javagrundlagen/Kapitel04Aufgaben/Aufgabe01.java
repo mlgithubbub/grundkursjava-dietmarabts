@@ -2,7 +2,7 @@ package de.javagrundlagen.Kapitel04Aufgaben;
 
 public class Aufgabe01 {
     public static void main(String[] args) {
-        int givenStars = 25;
+        int givenStars = 101;
         int sumOfStars = 0;
         int usableStars = 0;
         int leftoverStars;
