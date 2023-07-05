@@ -1,4 +1,4 @@
-package de.javagrundlagen.Kapitel05;
+package de.javagrundlagen.Kapitel05.Beispiele;
 
 public class Matrix2x3 {
 
