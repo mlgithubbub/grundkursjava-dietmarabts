@@ -1,10 +1,10 @@
-## 5 Arrays
+# 5 Arrays
 
 - Array:
     - eine geordnete Sammlung von Elementen desselben Datentyps, die man unter einem gemeinsamen Namen ansprechen kann
     - die Elemente eines Arrays enthalten alle entweder Werte desselben einfachen Datentyps oder Referenzen auf Objekte desselben Typs
 
-### 5.1 Definition und Initialisierung
+## 5.1 Definition und Initialisierung
 
 - Definition der Array-Variablen: *Typ[] Arrayname;*
     - *Typ* = einfacher Datentyp/Referenztyp
@@ -49,7 +49,7 @@ int[] x = new int[] {1, 10, 4, 0};
 x.length
 ````
 
-### 5.2 Zugriff auf Array-Elemente
+## 5.2 Zugriff auf Array-Elemente
 
 Der Zugriff auf ein Element erfolgt über seinen Index:
 ````java
@@ -71,7 +71,7 @@ for(int zahl : zahlen){
 - *zahl* ist nur im Schleifenkörper gültig
 - Veränderungen an Schleifenvariablen wirken sich nicht auf die Elemente des Arrays aus
 
-#### Mehrdimensionale Arrays
+### Mehrdimensionale Arrays
 
 - sind geschachtelte Arrays oder Arrays von Arrays
 
@@ -88,7 +88,7 @@ int[][] x = {{1,2,3},{4,5,6}};
 ````
 - x.length hat den Wert 2
 
-### Kommandozeilen-Parameter
+## 5.3 Kommandozeilen-Parameter
 
 Beim Aufruf eien Java-Applikation kann man dem Programm in der Kommandozeile Parameter, die durch Leerzeichen 
 voneinander getrennt sind mitgeben:
