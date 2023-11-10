@@ -1,26 +1,26 @@
 
 # 2 Einfache Datentypen und Variablen
 
-- ein Programm muss Daten (Zahlen, Zeichenketten, usw.) vorübergehend speichern, damit es Berechnungen und andere 
-  Verarbeitungen vornehmen kann
+- ein Programm muss `Daten` (`Zahlen`, `Zeichenketten`, usw.) vorübergehend speichern, damit es `Berechnungen` und andere 
+  `Verarbeitungen` vornehmen kann
 
 ## 2.1 Einfache Datentypen
 
-- `Variabel`: entspricht ein Speicherplatz im Arbeitsspeicher, in dem der aktuelle Wert der Variablen abgelegt ist
+- `Variabel`: entspricht ein `Speicherplatz` im `Arbeitsspeicher`, in dem `der aktuelle Wert der Variablen` abgelegt ist
 
 ### **8 Einfache/Primitive Datentypen**:
 
 #### Tabelle 2-1
-| Datentyp | Größe (Byte) | Wertebereich                                               |
-|----------|--------------|------------------------------------------------------------|
-| boolean  | -            | false, true                                                |
-| char     | 2            | 0...65,535                                                 |
-| byte     | 1            | -128...127                                                 |
-| short    | 2            | -32,768...32,767                                           |
-| int      | 4            | -2,147,483,648...2,147,483,647                             |
-| long     | 8            | -9,223,372,036,854,775,808...9,223,372,036,854,775,807     |
-| float    | 4            | Absolutbetrag 1.4 * 10^-45...3.4028235 * 10^38             |
-| double   | 8            | Absolutbetrag 4.9 * 10^-324... 1.7976931348623157 * 10^308 |
+| Datentyp | Größe (Byte) | Wertebereich                                                |
+|----------|--------------|-------------------------------------------------------------|
+| `boolean`  | -            | false, true                                                 |
+| `char`     | 2            | 0... 65,535                                                 |
+| `byte`     | 1            | -128... 127                                                 |
+| `short`    | 2            | -32,768... 32,767                                           |
+| `int`      | 4            | -2,147,483,648... 2,147,483,647                             |
+| `long`     | 8            | -9,223,372,036,854,775,808... 9,223,372,036,854,775,807     |
+| `float`    | 4            | Absolutbetrag 1.4 * 10^-45... 3.4028235 * 10^38             |
+| `double`   | 8            | Absolutbetrag 4.9 * 10^-324...  1.7976931348623157 * 10^308 |
 
 ### Literale
 
@@ -29,10 +29,10 @@
 ### Wahrheitswerte
 
 
-- Der `logische Typ` `boolean` kennt zwei `Literale`: true und false
-- Dieser Datentype wird dort verwendet, wo eine Entscheidung erforderlich ist
-  - z.B. Bedingungen in Fallunterscheidungen und Schleifen
-- Umwandlung ins ganzzahlige Werte nicht möglich
+- Der `logische Typ` `boolean` kennt zwei `Literale`: `true` und `false`
+- Dieser Datentyp wird dort verwendet, wo eine `Entscheidung` erforderlich ist
+  - z.B. `Bedingungen` in `Fallunterscheidungen` und `Schleifen`
+- `Umwandlung` ins ganzzahlige Werte nicht möglich
 
 ### Zeichen
 
@@ -43,35 +43,35 @@
 
 #### Unicode:
 - eine standardisierte Mehrbyte-Codierung, mit der die Schriftzeichen aller gängigen Sprachen dargestellt werden können
-- Zeichen vom Typ `char` sind 16 bit lang: ermöglicht 65.536 Zeichen
+- Zeichen vom Typ `char` sind 16 Bit lang: ermöglicht 65.536 Zeichen
 - Die ersten 128 Zeichen sind die 7-bit-`ASCII-Zeichen`
 
 #### Tabelle 2-2 Escape-Sequenzen
 
 | Escape-sequenz | Bedeutung                                                             |
-|----------------|-----------------------------------------------------------------------|
-| \\b            | Backspace                                                             |
-| \\t            | Tabulator                                                             |
-| \\n            | neue Zeile: Newline                                                   |
-| \\f            | Seitenvorschub: Formfeed                                              |
-| \\r            | Wagenrücklauf: Carriage return                                        |
-| \\"            | doppeltes Anführungszeichen "                                         |
-| \\'            | einfaches Anführungszeichen '                                         |
-| \\\            | Backslash \                                                           |
-| \\ddd          | ASCII-codiertes Zeichen in Oktalschreibweise                          |
-| \\udddd        | Unicode-Zeichen in Hexadezimalschreibweise, z.B. \u0020 (Leerzeichen) |
+|--------|-----------------------------------------------------------------------|
+| `\b`   | Backspace                                                             |
+| `\t`    | Tabulator                                                             |
+| `\n`    | neue Zeile: Newline                                                   |
+| `\f`    | Seitenvorschub: Formfeed                                              |
+| `\r`    | Wagenrücklauf: Carriage return                                        |
+| `\"`    | doppeltes Anführungszeichen "                                         |
+| `\'`    | einfaches Anführungszeichen '                                         |
+| `\\`    | Backslash \                                                           |
+| `\ddd`  | ASCII-codiertes Zeichen in Oktalschreibweise                          |
+| `\udddd` | Unicode-Zeichen in Hexadezimalschreibweise, z.B. \u0020 (Leerzeichen) |
 
 #### Unicode-Escapes für deutsche Umlaute und ß:
 
 | Zeichen | Escape-sequenz |
 |---------| --- |
-| Ä       | \u00c4 |
-| ä       | \u00e4 |
-| Ö       | \u00d6 |
-| ö       | \u00f6 |
-| Ü       | \u00dc |
-| ü       | \u00fc |
-| ß       | \u00df |
+| Ä       | `\u00c4` |
+| ä       | `\u00e4` |
+| Ö       | `\u00d6` |
+| ö       | `\u00f6` |
+| Ü       | `\u00dc` |
+| ü       | `\u00fc` |
+| ß       | `\u00df` |
 
 ### Ganze Zahlen
 
@@ -90,9 +90,9 @@
 - Wenn `l` oder `L` -> Typ = `long`
 - `char` stellt auch einen ganzzahligen Typ dar und ist `short` gleichgestellt
 
-### Fleißkommazahlen/ Gleitkommazahlen
+### Fließkommazahlen/ Gleitkommazahlen
 
-- `Fließkommatypen` wie `float` und `double` werden in Dezimalschreibweise notiert
+- `Fließkommatypen` wie `float` und `double` werden in `Dezimalschreibweise` notiert
 - `Fließkommatypen`: 
 ```
 Vorkomma-Teil + Dezimalpunkt + Nachkomma-Teil + Exponenten + Suffix
@@ -181,5 +181,15 @@ var age = 42;
 Der `Compiler` leitet den Typ vom Initialisierungsausdruck auf der rechten Seite ab
 
 ```java
+public class VarTest {
 
+    public static void main(String[] args) {
+        var age = 42;
+        var pi = 3.14159;
+        var hello = "Hallo!";
+        var notTrue = false;
+        
+        System.out.println(age + " " + pi + " " + hello + " " + notTrue);
+    }
+}
 ```

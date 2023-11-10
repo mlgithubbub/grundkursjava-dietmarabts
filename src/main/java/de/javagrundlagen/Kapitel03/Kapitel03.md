@@ -277,7 +277,7 @@ a < b ? b : a
 - ```(type) a``` wandelt den Ausdruck `a` in einen Ausdruck vom Typ `type` um, wenn möglich
 - `Cast-Operator` hat Priorität 1
 
-int-Variablen b einen double-Wert zuweisen:
+int-Variablen b einen double-Wert a zuweisen:
 ```java
 b = (int) a
 ```
