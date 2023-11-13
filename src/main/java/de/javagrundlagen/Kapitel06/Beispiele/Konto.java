@@ -1,6 +1,27 @@
 package de.javagrundlagen.Kapitel06.Beispiele;
 
 public class Konto {
+    //Constructors
+    public Konto(){}
+
+//    Konto(int kontonummer){
+//        this.kontonummer = kontonummer;
+//    }
+
+    //This constructor is the same as the above constructor
+    public Konto(int kontonummer){
+        this(kontonummer, 0.);
+    }
+
+    public Konto(int kontonummer, double saldo){
+        this.kontonummer = kontonummer;
+        this.saldo = saldo;
+    }
+
+    public Konto(Konto k){
+        kontonummer = k.kontonummer;
+        saldo = k.saldo;
+    }
     //Attribute:
     private int kontonummer;
     private double saldo;
