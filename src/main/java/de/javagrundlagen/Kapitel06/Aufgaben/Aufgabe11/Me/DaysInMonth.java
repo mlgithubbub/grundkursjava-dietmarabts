@@ -1,8 +1,11 @@
 package de.javagrundlagen.Kapitel06.Aufgaben.Aufgabe11.Me;
 
+//Die Methode int tage(int jahr, int monat) soll die Anzahl der Tage des angegebenen Monats im angegebenen Jahr
+// zurückgeben. Bei ungültiger Monatszahl soll 0 zurückgegeben werde. Berücksichtigen Sie zur Ermittlung der Anzahl
+// Tage des Monats Februar, ob das angegebene Jahr ein Schaltjahr ist( siehe Aufgabe 12 aus Kapitel 4).
 public class DaysInMonth {
 
-    int tage(int jahr, int monat){
+    public static int tage(int jahr, int monat){
 
         switch (monat){
             case 1, 3, 5, 7, 8, 10, 12:
