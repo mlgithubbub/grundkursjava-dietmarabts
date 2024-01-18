@@ -238,7 +238,7 @@ public class ParamTest {
 }
 ```
 1. `main`-Methode wird ausgeführt
-2. Beim Aufruf von `test`, die `Parameter` `betrag` und `kto` werden als `Variablen` erzeugt
+2. Beim Aufruf von **test**, die `Parameter` `betrag` und `kto` werden als `Variablen` erzeugt
 3. In `betrag` wird der wert von `wert` kopiert
 4. In `kto` wird die `Referenz` auf das konto-Objekt (Adresse dieses Objekts) kopiert
 5. Nach Ausführung der Methode enthält `wert` immer noch `1000.0` aber `konto` ist jetzt `1100.0`
@@ -276,8 +276,8 @@ public class ParamTest {
 - Innerhalb einer Methode bezeichnet `this` einen Wert, der dasjenige Objekt referenziert, für das die Methode 
   aufgerufen wurde
 - `this` bezeichnet das gerade `handelnde` Objekt
-- `this` wird benutzt:
-  - um auf "verdeckte" Attribute der eigenen Klasse zuzugreifen
+- `this` wird benutzt um:
+  - auf "verdeckte" Attribute der eigenen Klasse zuzugreifen
   - die eigene Instanz als Wert zurückzugeben
   - oder die eigene Instanz als Argument beim Aufruf einer anderen Methode zu verwenden
 
